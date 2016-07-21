@@ -2,8 +2,8 @@
   "params": {
     "Timeout": "20",
     "MemorySize": 256,
-    "Role": ""
+    "Role": "lambda_basic_execution"
   },
-  "includeEndpoints": false,
-  "packages": []
+  "includeEndpoints": true,
+  "packages": ["data-access"]
 }

@@ -12,8 +12,8 @@
  * So this function will be able to find which endpoint/node_module must be executed
  */
 
-module.exports = function(input, context, cb) {
+module.exports = function(input, cb) {
   // @TODO retrieve base path from the api-gateway plugin
-  const fn = require('./api-gateway/endpoints' + input.endpoint.path + '/' + input.endpoint.method);
+  const fn = require('endpoints/' + input.endpoint.path + '/' + input.endpoint.method);
   fn(input, cb);
 };

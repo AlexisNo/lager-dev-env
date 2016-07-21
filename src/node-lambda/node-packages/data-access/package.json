@@ -1,3 +1,5 @@
 {
-  "x-lager": {}
+  "x-lager": {
+    "dependencies": ["log"]
+  }
 }
