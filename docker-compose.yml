@@ -3,7 +3,7 @@ node:
   build: docker-compose/nodejs
   env_file: docker-compose.env
   volumes:
-    - src:/home/lager/app
+    - ./src:/home/lager/app
     - ../cli:/home/lager/.node/lib/node_modules/@lager/cli
     - ../lager:/home/lager/.node/lib/node_modules/@lager/lager
     - ../iam:/home/lager/.node/lib/node_modules/@lager/iam
