@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@lager/api-gateway": "0.0.0",
+    "@lager/iam": "0.0.0",
+    "@lager/lager": "0.0.16",
+    "@lager/node-lambda": "0.0.0"
+  },
+  "name": "planet-express",
+  "version": "0.0.0",
+  "description": "APIs for a space delivery company",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "planet",
+    "express",
+    "delivery",
+    "company"
+  ],
+  "author": "Bender is great",
+  "license": "MIT"
+}

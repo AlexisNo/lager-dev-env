@@ -1,0 +1,13 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Recipient application API",
+    "description": "API used by recipient applications to notify delivery receptions"
+  },
+  "schemes": [
+    "https"
+  ],
+  "host": "API_ID.execute-api.REGION.amazonaws.com",
+  "paths": {},
+  "definitions": {}
+}

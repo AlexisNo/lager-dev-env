@@ -1,0 +1,20 @@
+{
+  "x-lager": {
+    "apis": [
+      "sender"
+    ]
+  },
+  "summary": "Create a new delivery",
+  "consume": [
+    "application/json"
+  ],
+  "produce": [
+    "application/json"
+  ],
+  "x-amazon-apigateway-auth": {
+    "type": "aws_iam"
+  },
+  "x-amazon-apigateway-integration": {
+    "credentials": null
+  }
+}
