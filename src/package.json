@@ -1,9 +1,9 @@
 {
   "dependencies": {
-    "@lager/api-gateway": "0.0.0",
-    "@lager/iam": "0.0.0",
-    "@lager/lager": "0.0.16",
-    "@lager/node-lambda": "0.0.0"
+    "@lager/api-gateway": "github:lagerjs/api-gateway",
+    "@lager/iam": "github:lagerjs/iam",
+    "@lager/lager": "github:lagerjs/lager",
+    "@lager/node-lambda": "github:lagerjs/node-lambda"
   },
   "name": "planet-express",
   "version": "0.0.0",

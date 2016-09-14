@@ -1,9 +1,12 @@
 {
   "params": {
     "Timeout": "20",
-    "MemorySize": 256,
-    "Role": "lambda_basic_execution"
+    "MemorySize": "256",
+    "Role": "PlanetExpressLambdaExecution"
   },
   "includeEndpoints": true,
-  "packages": ["data-access"]
+  "modules": [
+    "data-access",
+    "log"
+  ]
 }

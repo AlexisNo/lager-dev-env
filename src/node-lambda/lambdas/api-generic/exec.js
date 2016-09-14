@@ -13,7 +13,9 @@
  */
 
 module.exports = function(input, cb) {
-  // @TODO retrieve base path from the api-gateway plugin
+  if (!input.endpoint || !input.endpoint.path || !input.endpoint.method) {
+    return cb(new Error('The API Gateway endpoint integration request is not properly configured to call this Lambda function'));
+  }
   const fn = require('endpoints/' + input.endpoint.path + '/' + input.endpoint.method);
   fn(input, cb);
 };
