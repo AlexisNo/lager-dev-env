@@ -13,9 +13,9 @@
  */
 
 module.exports = function(input, cb) {
-  if (!input.endpoint || !input.endpoint.path || !input.endpoint.method) {
+  if (!input.context || !input.context['resource-path'] || !input.context['http-method']) {
     return cb(new Error('The API Gateway endpoint integration request is not properly configured to call this Lambda function'));
   }
-  const fn = require('endpoints/' + input.endpoint.path + '/' + input.endpoint.method);
+  const fn = require('endpoints' + input.context['resource-path'] + '/' + input.context['http-method']);
   fn(input, cb);
 };

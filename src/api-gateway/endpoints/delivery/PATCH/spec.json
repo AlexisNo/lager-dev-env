@@ -2,7 +2,8 @@
   "x-lager": {
     "apis": [
       "bo"
-    ]
+    ],
+    "lambda": "api-generic"
   },
   "summary": "View a delivery",
   "consume": [

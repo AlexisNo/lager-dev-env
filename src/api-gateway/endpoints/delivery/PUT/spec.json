@@ -3,7 +3,8 @@
     "apis": [
       "bo",
       "sender"
-    ]
+    ],
+    "lambda": "api-generic"
   },
   "summary": "View a delivery",
   "consume": [
