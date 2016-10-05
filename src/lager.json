@@ -4,7 +4,7 @@
     "@lager/iam",
     "@lager/api-gateway",
     "@lager/node-lambda",
-    "plugins/hello",
+    "./plugins/hello",
     "plugins/world",
     "plugin/invalid"
   ]

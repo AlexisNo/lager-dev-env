@@ -1,10 +1,5 @@
 {
-  "dependencies": {
-    "@lager/api-gateway": "github:lagerjs/api-gateway",
-    "@lager/iam": "github:lagerjs/iam",
-    "@lager/lager": "github:lagerjs/lager",
-    "@lager/node-lambda": "github:lagerjs/node-lambda"
-  },
+  "dependencies": {},
   "name": "planet-express",
   "version": "0.0.0",
   "description": "APIs for a space delivery company",

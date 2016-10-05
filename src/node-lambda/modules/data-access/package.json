@@ -3,5 +3,7 @@
     "dependencies": [
       "log"
     ]
-  }
+  },
+  "dependencies": {},
+  "devDependencies": {}
 }
