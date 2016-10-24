@@ -1,7 +1,7 @@
 {
   "x-lager": {
     "apis": [
-      "bo",
+      "back-office",
       "recipient",
       "sender"
     ],

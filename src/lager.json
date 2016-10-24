@@ -2,9 +2,9 @@
   "name": "dev-app",
   "plugins": [
     "@lager/iam",
-    "@lager/api-gateway",
     "@lager/node-lambda",
-    "./plugins/hello",
+    "@lager/api-gateway",
+    "plugins/hello",
     "plugins/world",
     "plugin/invalid"
   ]

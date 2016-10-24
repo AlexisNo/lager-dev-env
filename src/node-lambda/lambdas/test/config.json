@@ -1,0 +1,9 @@
+{
+  "params": {
+    "Timeout": "8",
+    "MemorySize": "192",
+    "Role": "PlanetExpressLambdaExecution"
+  },
+  "includeEndpoints": false,
+  "modules": []
+}
